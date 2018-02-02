@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="sign_in_">#a4f4c4</color>
+    <!--Sign-In-->
+    <color name="sign_in">#a4f4c4</color>
     <color name="button_background">#4ae287</color>
     <color name="link">#210999</color>
+
+    <!--App Theme-->
+    <color name="app_bar">#F57C00</color>
+    <color name="action_bar">#FF9800</color>
+    <color name="unselected_text">#FFCC80</color>
+    <color name="nav_background">#FFF</color>
+    <color name="transparent">@android:color/transparent</color>
 
 </resources>

@@ -8,14 +8,23 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/SignInStyle">
-        <activity android:name=".Signing">
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Signing"
+            android:theme="@style/SignInStyle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/HomeStyle" />
+        <activity
+            android:name=".CreateAccountActivity"
+            android:theme="@style/SignInStyle" />
     </application>
 
 </manifest>
